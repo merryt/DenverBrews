@@ -6,6 +6,8 @@ Denver Brews
 
 -----
 
-Design work for a website that review beers brewed in denver
+beers breviews for beers brewed in denver
 
 -----
+
+This site is built using angularjs, bootstrap3, and parse for the back end
