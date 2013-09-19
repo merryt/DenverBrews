@@ -1,0 +1,22 @@
+.beerContainer {
+	padding: 9px 14px;
+	margin-bottom: 14px;
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+	border-left: 2px solid #5B3C1F;
+	border-radius: 0px 4px 4px 0px;
+	margin-left: 0px
+}
+
+.row{
+	margin-top: 20px;
+}
+
+.score-largeNumber{
+	font-size:75px;
+	letter-spacing: -10px;
+}
+
+.score-label{
+	margin: -20px 0 0 15px;
+}

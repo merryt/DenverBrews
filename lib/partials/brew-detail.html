@@ -1,0 +1,28 @@
+<div class="row show-grid">
+	<div class="col-lg-2">
+		<img ng-src="lib/brews/{{brew.id}}/img.jpg" class="img-rounded">
+	</div>
+	<div class="col-lg-8">
+		<h1>{{brew.name}}</h1> 
+		<h4 class="c">{{brew.brewer.name}}</h4>
+
+	</div>
+	<div class="col-lg-2">
+		<h1 class="score-largeNumber">{{brew.overallScore}}</h1>
+		<p class="score-label">Score</p>
+	</div>
+</div>
+<div class="row show-grid">
+	<div class="col-lg-12">
+		<div class="highlight">
+			<h4>What the team thinks</h4>
+			<p>What <strong>Tyler</strong> is thinking:<br /> - {{brew.teamOpinion.tyler}}</p>
+			<p>What <strong>Casey</strong> is thinking:<br /> - {{brew.teamOpinion.casey}}</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+

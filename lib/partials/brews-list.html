@@ -1,0 +1,22 @@
+<h2> Some of our top beers</h2>
+<div class="form-horizontal">
+	<div class="form-group clearfix">
+		<label class="col-lg-2 control-label">Search:</label>
+		<div class="col-lg-10">
+			<input type="text" class="form-control" ng-model="searchText">
+		</div>
+	</div>
+</div>
+
+<div ng-repeat='brew in brews | filter:searchText' class="row beerContainer"> 
+	<div class="col-lg-2"> 
+		<img ng-src="{{brew.beerImg}}" class="img-rounded">
+	</div>
+
+	<div class="col-lg-6"> 
+		<h4>{{brew.beerName}}</h3>
+		<p><span>{{brew.brewersName}}</span> - <span>{{brew.brewersLocation}}</span></p>
+		<p>{{brew.brewSnippet}}</p>
+		<!-- <a href="#/brews/{{brew.id}}">read more</a> -->
+	</div>
+</div>

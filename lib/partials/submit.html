@@ -1,0 +1,61 @@
+	<div class="bs-callout">
+		<h4>Before submiting a beer!</h4>
+		<p>Please look through our list of <a href="#/brews">reviews</a>.</p>
+	</div>
+
+
+
+
+	<form class="form-horizontal">
+	<div class="row">
+		<label for="passwordInput" class="col col-lg-2 control-label">Password</label>
+		<div class="col col-lg-10">
+			<input type="password" id="passwordInput" placeholder="Password" ng-model="password" required ng-minlength=5>
+		</div>
+	</div>
+	<div class="row">
+		<label for="beerNameInput" class="col col-lg-2 control-label">Beer Name</label>
+		<div class="col col-lg-10">
+			<input type="text" id="beerNameInput" placeholder="Beer Name" ng-model="beerName" required ng-minlength=5>
+		</div>
+	</div>
+	<div class="row">
+		<label for="beerNameInput" class="col col-lg-2 control-label">Beer picture</label>
+		<div class="col col-lg-10">
+			<input type="url" id="beerNameInput" placeholder="a picture of the beer, in link format" ng-model="beerImg" required >
+		</div>
+	</div>
+	<div class="row">
+		<label for="beerBrewerInput" class="col col-lg-2 control-label">Brewer</label>
+		<div class="col col-lg-10">
+			<input type="text" id="beerBrewerInput" placeholder="Brewers Name" ng-model="brewersName" required>
+		</div>
+	</div>
+	<div class="row">
+		<label for="brewersLocationInput" class="col col-lg-2 control-label">Brewer location</label>
+		<div class="col col-lg-10">
+			<input type="text" id="brewersLocationInput" placeholder="Brewers location" ng-model="brewersLocation" required>
+		</div>
+	</div>
+	<div class="row">
+		<label for="submitterEmailInput" class="col col-lg-2 control-label">Brew Snippet</label>
+		<div class="col col-lg-10">
+			<input type="text" id="submitterEmailInput" placeholder="Brief discription about the beer" ng-model="brewSnippet" required>
+		</div>
+	</div>	
+	<div class="row">
+		<label for="submitterNameInput" class="col col-lg-2 control-label">Your Name</label>
+		<div class="col col-lg-10">
+			<input type="text" id="submitterNameInput" placeholder="So we know who to thank for the recomendation" ng-model="submitterName" required>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col col-lg-5 col-offset-2">
+			<button type="submit" class="btn btn-default" ng-click="submitNewBeer()">Submit</button>
+		</div>
+		<div class="col col-lg-5">
+			<button type="submit" class="btn btn-default" ng-click="showMeBeers()">Show Me what others have</button>
+		</div>
+	</div>
+	</form>

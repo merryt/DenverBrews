@@ -1,0 +1,28 @@
+{
+  "id":"dalesPaleAle",
+  "name": "Dales Pale Ale",
+  "teamOpinion" : {
+    "tyler": "Supper yummy",
+    "casey": "fuck that shit!!"
+  },
+  "brewer":{
+    "name" : "Oscar Blues",
+    "location": "Lyons"
+  },
+  "overallScore": 12,
+  "style" : "Pale Ale",
+  "detailedScore": {
+    "look" : 3.5,
+    "smell" : 3.5, 
+    "taste": 3.75,
+    "feel": 3.75,
+    "overall": 3.5
+  },
+  "recomendedBy": "Steve McFancyPants",
+  "images": [
+      "img/brews/dalesPaleAle/img.jpg",
+      "img/brews/dalesPaleAle/img1.jpg",
+      "img/brews/dalesPaleAle/img2.jpg",
+      "img/brews/dalesPaleAle/img3.jpg"
+  ]
+}

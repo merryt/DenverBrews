@@ -1,0 +1,28 @@
+{
+  "id":"redRocket",
+  "name": "Red Rocket Pale Ale",
+  "teamOpinion" : {
+    "tyler": "Supper yummy",
+    "casey": "fuck that shit!!"
+  },
+  "brewer":{
+    "name" : "Briston Brewing Company",
+    "location": "Colorado Springs"
+  },
+  "overallScore": 9,
+  "style" : "Pale Ale",
+  "detailedScore": {
+    "look" : 3.5,
+    "smell" : 3.5, 
+    "taste": 3.75,
+    "feel": 3.75,
+    "overall": 3.5
+  },
+  "recomendedBy": "Steve McFancyPants",
+  "images": [
+      "img/brews/Odell90Shilling/img.jpg",
+      "img/brews/Odell90Shilling/img1.jpg",
+      "img/brews/Odell90Shilling/img2.jpg",
+      "img/brews/Odell90Shilling/img3.jpg"
+  ]
+}

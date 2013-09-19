@@ -1,0 +1,30 @@
+
+
+{
+  "id":"OdellMycenaryDoubleIPA",
+  "name": "Mycenary Double IPA",
+  "teamOpinion" : {
+    "tyler": "Supper yummy",
+    "casey": "fuck that shit!!"
+  },
+  "brewer":{
+    "name" : "Odell Brewing Company",
+    "location": "Fort Collins"
+  },
+  "overallScore": 23,
+  "style" : "Pale Ale",
+  "detailedScore": {
+    "look" : 3.5,
+    "smell" : 3.5, 
+    "taste": 3.75,
+    "feel": 3.75,
+    "overall": 3.5
+  },
+  "recomendedBy": "Steve McFancyPants",
+  "images": [
+      "img/brews/OdellMycenaryDoubleIPA/img.jpg",
+      "img/brews/OdellMycenaryDoubleIPA/img1.jpg",
+      "img/brews/OdellMycenaryDoubleIPA/img2.jpg",
+      "img/brews/OdellMycenaryDoubleIPA/img3.jpg"
+  ]
+}

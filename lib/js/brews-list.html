@@ -1,0 +1,13 @@
+<div ng-controller='mainCtrl'>
+
+	<div ng-repeat='brew in brews' class="row beerContainer"> 
+		<div class="col-lg-2"> 
+			<img src="{{brew.imgUrl}}" height="100px">
+		</div>
+		<div class="col-lg-6"> 
+			<h4>{{brew.name}}</h3>
+			<p>{{brew.snippet}}</p>
+			<a href="#/brews/{{brew.id}}">read more</a>
+		</div>
+	</div>
+</div>
